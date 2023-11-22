@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@font-face {
+  font-family: 'MantouSans';
+  src: url('../fonts/MantouSans-Regular.ttf') format('truetype');
+  /* Add additional font styles if needed, e.g., font-weight, font-style */
+}
+
+
+
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Inter', sans-serif;
+  background-color: #FDFCFB;
+  color: #334155;
+}
+#app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+main {
+  max-width: 1320px;
+  margin: auto;
+}
+
+
+.bg-gradient {
+  background: linear-gradient(to right, #E5793B 1.5%, #FF4185);
+}
+.gradient-text {
+  background: linear-gradient(90deg, #E5793B 15%, #FF4185 75%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+footer{
+  margin-top: auto;
+}
