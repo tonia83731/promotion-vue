@@ -1,5 +1,4 @@
 <script setup>
-import TheHeader from '../components/TheHeader.vue';
 import MainSection from '../components/section/MainSection.vue';
 import MainAdvocateSection from '../components/section/MainAdvocateSection.vue';
 import EventSection from '../components/section/EventSection.vue';
@@ -13,7 +12,6 @@ import TheMobileHeader from '../components/TheMobileHeader.vue';
 
 <template>
   <main>
-    <TheHeader />
     <MainSection />
     <MainAdvocateSection />
     <EventSection />

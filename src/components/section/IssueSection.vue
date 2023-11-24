@@ -6,7 +6,7 @@ import TheTag from '../element/TheTag.vue';
 </script>
 
 <template>
-  <section class="hidden tablet:block">
+  <section class="hidden desktop:block" id="issues">
     <div class="container">
       <div class="py-5 flex flex-col items-center">
         <TheTag 

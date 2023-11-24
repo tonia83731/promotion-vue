@@ -4,7 +4,7 @@
 </script>
 
 <template>
-  <section class="">
+  <section id="donate-and-mail">
     <div class="container flex flex-col items-center">
       <div class="grid grid-rows-2 gap-6 tablet:grid-rows-none tablet:grid-cols-2">
         <DonateBlock 

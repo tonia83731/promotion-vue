@@ -7,11 +7,12 @@ import HomeView from './views/HomeView.vue';
 </script>
 
 <template>
-  <!-- <TheHeader /> -->
-  <HomeView />
-  <TheFooter />
+  <TheHeader />
+  <!-- <HomeView />
+  <TheFooter /> -->
 
-  <!-- <RouterView /> -->
+  <RouterView />
+  <TheFooter />
 </template>
 
 <style scoped>

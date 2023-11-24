@@ -7,7 +7,7 @@ import TheName from '../element/TheName.vue';
 </script>
 
 <template>
-  <section class="bg-bg-theme-2 flex flex-col items-center">
+  <section class="bg-bg-theme-2 flex flex-col items-center" id="main-advocate">
     <div class="flex flex-col desktop:grid desktop:grid-cols-2 container">
       <div class="bg-default-white px-6 py-10 rounded-t-[24px] flex flex-col items-center desktop:rounded-s-[24px] desktop:rounded-tr-none">
          <TheTag 

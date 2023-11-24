@@ -7,7 +7,7 @@ import TheButton from '../element/TheButton.vue';
 </script>
 
 <template>
-  <section class="flex flex-col items-center">
+  <section class="flex flex-col items-center" id="news">
     <div class="flex flex-col items-center container">
       <TheTag 
         tag="LATEST EVENTS"

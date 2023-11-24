@@ -7,7 +7,7 @@ import CarouselBtn from '../element/CarouselBtn.vue';
 </script>
 
 <template>
-  <section class="bg-bg-theme-2 tablet:hidden">
+  <section class="bg-bg-theme-2 desktop:hidden" id="issues2">
     <div class="container">
       <div class="py-5 flex flex-col items-center">
         <TheTag 
