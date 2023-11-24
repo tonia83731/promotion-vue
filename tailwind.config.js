@@ -10,7 +10,8 @@ export default {
       'text-primary': '#334155',
       'text-secondary': '#94A3B8', // gray-500
       'bg-theme-1': '#FDFCFB',
-      'bg-theme-2': '#F7ECE1'
+      'bg-theme-2': '#F7ECE1',
+      'gray-100': '#F1F5F9'
     },
     fontFamily: {
       'mantou': ['MantouSans', 'sans-serif'],
