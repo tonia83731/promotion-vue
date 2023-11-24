@@ -14,6 +14,7 @@
           btnText="小額捐款"
           btnClass="bg-default-white text-text-primary desktop:max-w-[200px]"
           imageSrc="/src/assets/DonateImg.png"
+          href="/donate"
         />
         <DonateBlock 
           mainTitle="民眾服務信箱" 
@@ -22,6 +23,7 @@
           btnText="填寫表單"
           btnClass="bg-default-white text-text-primary desktop:max-w-[200px]"
           imageSrc="/src/assets/MailImg.png"
+          href="/mail"
         />
       </div>
     </div>

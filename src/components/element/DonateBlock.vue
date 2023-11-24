@@ -9,6 +9,7 @@ export default {
         btnText: String,
         btnClass: String,
         imageSrc: String,
+        href: String,
     },
     components: { TheButton }
 }
@@ -20,7 +21,9 @@ export default {
     <div class="font-mantou text-[40px]">{{ mainTitle }}</div>
     <div class="text-xl font-semibold">{{ subTitle }}</div>
     <div class="mt-6 grid grid-cols-[1fr_135px] h-[125px] items-center tablet:gap-2 desktop:grid-cols-[1fr_220px] desktop:gap-20 desktop:h-[240px]">
-      <TheButton :btnText="btnText" :btnClass="btnClass"/>
+      <a :href="href">
+        <TheButton :btnText="btnText" :btnClass="btnClass"/>
+      </a>
       <img :src="imageSrc" alt="donate-section" class=""/>
     </div>
   </div>
